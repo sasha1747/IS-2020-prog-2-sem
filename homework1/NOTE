@@ -1,0 +1,13 @@
+Pulling https://github.com/sasha1747/IS-2020-prog-2-sem/homework1
+Pull finished
+It's compiled
+Return code: 3
+Assertion failed: abs(rp.area() - 4) < EPS && abs(rp.perimeter() - 8) < EPS, file main.cpp, line 41
+
+main.cpp: In function 'void PolygonsCheck()':
+main.cpp:47:12: warning: deleting object of polymorphic class type 'Trapezoid' which has non-virtual destructor might cause undefined behavior [-Wdelete-non-virtual-dtor]
+   47 |     delete trap;
+      |            ^~~~
+
+
+
